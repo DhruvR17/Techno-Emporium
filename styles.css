@@ -1,0 +1,140 @@
+.header {
+    background-color: #161515; 
+    color: #fff; 
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+
+.nav{
+    width: 100%;
+    height:50px;
+    background-color: #2d2d2d;
+}
+
+
+ /* Add CSS to arrange images horizontally */
+ .body{
+    background : linear-gradient(to bottom right,#4cd07c,#4cc1d0, #974cd0, #452062 );
+ }
+
+ 
+
+
+
+
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+
+ .icon{
+    width: 100%;
+    height: 200px;
+    margin: 0 0px;
+    align-self: start;
+    padding-left: 4%;
+    background-color: #a18fd7;
+
+ }
+ 
+.buy-button {
+    background-color: #b09616;
+    color: #0e0c0c;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #dfd18c;
+}
+
+.wishlist{
+    background-color: #db1010;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wishlist:hover {
+    background-color: #df8c8c;
+}
+
+.checked {
+    color: rgb(205, 148, 43);
+}
+
+.Wishlist{
+ background-color: #6d3f96; 
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+.card{
+    height: 55%;
+    width: 50%;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: #f5f5f5; 
+    box-shadow: 10px 7px 10px 5px rgba(6, 222, 31, 0.7); /*horizontal vertical shadow spread*/
+}
+
+.card.muted {
+    box-shadow: 2px 2px 4px rgba( 0 , 0 , 0.2);
+}
+
+
+
+/*.card {
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: #f5f5f5; 
+    box-shadow: 10px 7px 10px 5px rgba(6, 222, 31, 0.7); /*horizontal vertical shadow spread
+}
+  
+.card.muted {
+    box-shadow: 2px 2px 4px rgba( 0 , 0 , 0.2);
+}
+
+#overlay {
+    position: fixed; 
+    display: none; /* Hidden by default 
+    width: 100%; /* Full width (cover the whole page) 
+    height: 100%; /* Full height (cover the whole page) 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity 
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements 
+    cursor: pointer; /* Add a pointer on hover 
+  } */
+  
